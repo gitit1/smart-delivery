@@ -1,8 +1,10 @@
+import { Button } from "@/components/ui/button";
+
 function App() {
   return (
-    <main>
-      <h1>SmartDelivery Transit 🚚</h1>
-    </main>
+    <div className="min-h-screen flex items-center justify-center bg-zinc-100">
+      <Button>כפתור ראשון 🩵</Button>
+    </div>
   );
 }
 
